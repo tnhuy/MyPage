@@ -1,0 +1,18 @@
+.App {
+ 
+}
+
+.App-intro {
+  font-size: large;
+  text-align: center;
+}
+
+.App-main-body{
+  width: 60%;
+  height: 500px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
