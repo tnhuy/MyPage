@@ -6,11 +6,13 @@ import '/Users/Thanhng/Documents/react-projects/my-page/src/css/Header.css';
 class Header extends Component {
 	render() {
 		return (
-			<div className="App-header">
-				<div className="logo">
-          		<img src={logo} className="App-logo" alt="logo" />
+			<div className="App-header row">
+				<div className="logo col s1">
+          			<img src={logo} className="App-logo" alt="logo" />
           		</div>
-          		<h2>Welcome to React</h2>
+          		<div className="col s4">
+          			<h5 className="brand-logo">My Page</h5>
+          		</div>
         	</div>
         )
 	}
